@@ -1,0 +1,8 @@
+<div class="container pub-container">
+  <h3>{{ site.pub_title | default: "Publications" }}</h3>
+  <div class="row clearfix">
+    <div class="col-md-12">
+      {{ site.pub_content | strip | markdownify }}
+    </div>
+  </div>
+</div>
